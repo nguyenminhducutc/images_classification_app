@@ -21,8 +21,7 @@ qua API một cách đơn giản
 - Chạy docker bằng lệnh `docker-compose up -d`
 
 ## Cài đặt database:
-B1: Cài đặt database postgresql 
- Cài đặt cho ubuntu 20.04
+B1: Cài đặt database postgresql cho ubuntu 20.04
   * sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
   * sudo wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
   * sudo apt-get update
