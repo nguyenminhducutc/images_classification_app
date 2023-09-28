@@ -20,9 +20,7 @@
 qua API một cách đơn giản
 - Dữ liệu sẽ được đẩy lên lưu trữ tại Minio Storage (cài đặt bằng docker) đồng thời insert vào bảng label_image trong database 
 - Chạy docker bằng lệnh `docker-compose up -d`
-- Cổng truy cập Minio:
-      * "9000:9000"
-      * "9001:9001"
+- Cổng truy cập Minio: "9000:9000" hoặc "9001:9001"
 
 ## Cài đặt database:
 B1: Cài đặt database postgresql cho ubuntu 20.04
